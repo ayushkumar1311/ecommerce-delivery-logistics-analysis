@@ -83,6 +83,17 @@ Recommended validation checks:
 - **Cancellation rate:** Calculate separately from delivery performance, using a clearly defined denominator.
 - **Customer review analysis:** Link reviews to orders carefully and check for multiple reviews or repeated order IDs.
 
+### Investigation: Delivered orders with missing actual delivery dates
+
+A status-based validation of `olist_orders_dataset.csv` identified 8 orders marked as `delivered` with a missing `order_delivered_customer_date`.
+
+- 7 of these orders have a carrier delivery timestamp available.
+- 1 order is missing both the carrier delivery timestamp and the customer delivery timestamp.
+- These 8 records should be retained in the source dataset.
+- Exclude them from calculations that require a valid actual delivery timestamp, such as delivery duration and on-time delivery classification.
+- Report the number of excluded records alongside the relevant KPIs to maintain transparency.
+- Validate the eligible delivered-order population before calculating the final on-time delivery rate.
+
 ## 6. Recommended Actions
 
 1. Preserve all original CSV files unchanged.
