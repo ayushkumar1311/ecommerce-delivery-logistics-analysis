@@ -1,0 +1,7 @@
+KPI,SQL Result,Python Result,Status
+Total Orders,99441,99441,Match
+Delivered Orders,96478,96478,Match
+On-Time Delivery Rate (%),91.89,91.89,Match
+Average Delivery Duration (Days),12.56,12.56,Match
+Average Delivery Delay (Days),-11.18,-11.18,Match
+Cancellation Rate (%),0.63,Not yet verified,SQL calculated
