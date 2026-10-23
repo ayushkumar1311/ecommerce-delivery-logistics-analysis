@@ -30,7 +30,6 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 3. **Delay Diagnostics:** Fulfillment breakdown separating warehouse processing time from courier transit time, alongside day-of-week latency heatmaps.
 4. **Customer Experience (CX):** Rating decay analysis evaluating review score drops relative to delay days.
 
-=======
 # E-commerce-Delivery-Logistics-Analysis
 E-commerce delivery and logistics performance analysis using Python, PostgreSQL, Excel and Power BI.
 >>>>>>> e59a674becb5d3b59c040ca91ddc034da0019157
