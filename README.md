@@ -14,7 +14,7 @@ Team project to analyze e-commerce delivery performance using Python, PostgreSQL
 Olist Brazilian E-Commerce Dataset:
 https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 
-## 🚀 Power BI Dashboard Implementation
+## Power BI Dashboard Implementation
 
 ### Core Key Performance Indicators (KPIs)
 - **Total Orders:** 99,441
