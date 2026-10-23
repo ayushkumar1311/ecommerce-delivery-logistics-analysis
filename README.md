@@ -29,9 +29,6 @@ https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
 2. **Regional Performance & Routes:** State-wise delivery duration analysis and seller volume vs. on-time efficiency.
 3. **Delay Diagnostics:** Fulfillment breakdown separating warehouse processing time from courier transit time, alongside day-of-week latency heatmaps.
 4. **Customer Experience (CX):** Rating decay analysis evaluating review score drops relative to delay days.
-
-### Data Model Architecture
-- **Star Schema:** Centered on `olist_orders_dataset` connected to `Dim_Date`, `olist_customers_dataset`, `olist_products_dataset`, `olist_order_items_dataset`, and `olist_order_reviews_dataset`.
 =======
 # E-commerce-Delivery-Logistics-Analysis
 E-commerce delivery and logistics performance analysis using Python, PostgreSQL, Excel and Power BI.
